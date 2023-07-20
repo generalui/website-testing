@@ -1,0 +1,25 @@
+{
+  "name": "website-testing",
+  "private": true,
+  "scripts": {
+    "test:e2e": "cypress run --config-file tests/cypress/cypress.config.ts",
+    "test:e2e:open": "cypress open --config-file tests/cypress/cypress.config.ts",
+    "test:lhci": "lhci autorun --config=tests/lighthouse-ci/lighthouse-ci.config.js",
+    "test:lhci:desktop": "DEVICE=desktop lhci autorun --config=tests/lighthouse-ci/lighthouse-ci.config.js",
+    "test:lhci:wizard": "lhci wizard",
+    "test:lhci:server": "node tests/lighthouse-ci/lighthouse-ci-local-server.js"
+  },
+  "dependencies": {
+    "@lhci/cli": "^0.12.0",
+    "@lhci/server": "^0.12.0",
+    "cypress": "^12.3.0",
+    "dotenv": "^16.0.3",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "puppeteer": "^20.1.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

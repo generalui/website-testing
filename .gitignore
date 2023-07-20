@@ -1,0 +1,17 @@
+.DS_Store
+.cache
+.idea
+.env
+
+node_modules
+
+# Cypress
+tests/cypress/downloads
+tests/cypress/screenshots
+tests/cypress/videos
+
+# Lighthouse
+.lighthouseci/
+tests/.lighthouseci
+tests/lighthouse-ci/reports
+tests/lighthouse-ci/db.sql
