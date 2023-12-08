@@ -12,4 +12,4 @@ createServer({
     sqlDialect: 'sqlite',
     sqlDatabasePath: './tests/lighthouse-ci/db.sql',
   },
-}).then(({port}) => console.log('LHCI listening on port', port));
+}).then(({ port }) => console.log('LHCI listening on port', port));

@@ -15,3 +15,7 @@ tests/cypress/videos
 tests/.lighthouseci
 tests/lighthouse-ci/reports
 tests/lighthouse-ci/db.sql
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
