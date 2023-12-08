@@ -1,5 +1,6 @@
 {
-  "name": "seo-testing",
+  "name": "web-testing-tookit",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "test:e2e": "playwright test --config=tests/playwright/playwright.config.ts",
